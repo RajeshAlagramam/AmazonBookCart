@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="text" value="The Monk Who Sold His Ferrari" />
+<parameter name="cost" value="151" />
+  <test thread-count="5" name="Test">
+  <classes>
+    <class name=DriverTest />
+    <class name=SignInTest />
+  </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
